@@ -10,7 +10,7 @@ const modalCloserBtn = $.querySelector(".modalBox .btn-close")
 
 modalOpenerBtn.addEventListener("click" , function(){
     modalBox.className = "modalBox fade-in"
-    mainBody.style.filter = "blur(2px)"
+    mainBody.style.filter = "blur(7px)"
 
     body.addEventListener("keydown" , modalKeyboardCloser)
 })
